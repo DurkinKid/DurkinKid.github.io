@@ -20,7 +20,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.myName {
+/* .myName {
   
   margin: 0 auto;
   overflow: hidden;
@@ -29,9 +29,10 @@
 .myTitle {
  
   overflow: hidden;
-}
+} */
 
 .myImg {
+  border-radius: 65px 2px;
 }
 
 .navLinx {
