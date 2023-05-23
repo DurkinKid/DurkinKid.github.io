@@ -4,6 +4,14 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 export default function Projects(){
    
+    // const faveIndex = post.favorites.findIndex(
+    //     (favorite) => favorite.username === loggedUser.username
+    //   );
+
+    // const clickHandler =
+    // faveIndex > -1
+    //   ? () => removeFavorite(post.favorites[faveIndex]._id)
+    //   : () => addFavorite(post._id);
 
     return (
         <>
@@ -21,18 +29,38 @@ export default function Projects(){
         </Card.Content>
         <Card.Content extra>
         Show some feedback<br/>
-            <Icon name="heart" />
+            <Icon name="heart"
+            // onClick={clickHandler}
+            />
         </Card.Content>
         </Card>
+
         <Card centered>
-            <Image fluid src="https://imgur.com/a/FjdLnym"
+            <Image fluid src="https://i.imgur.com/hIpH3a6.jpg"
             as='a'
-            href= "https://charlesthegr8-sonofabeach.onrender.com"
+            href= "https://github.com/DurkinKid/ReactGiphy"
             />
 
         <Card.Content>
-        <Card.Header>BarFly</Card.Header>
-        <Card.Meta>Team oriented developing skills are showcased in this example along with conscientious github management.</Card.Meta>
+        <Card.Header>Giphy React App</Card.Header>
+        <Card.Meta>Fun and easy giphy api utlization.</Card.Meta>
+        <Card.Description></Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+        Show some feedback<br/>
+            <Icon name="heart" />
+        </Card.Content>
+        </Card>
+
+        <Card centered>
+            <Image fluid src="https://i.imgur.com/09saRiE.jpg"
+            as='a'
+            href= "https://github.com/DurkinKid/ToppsCardsCollector"
+            />
+
+        <Card.Content>
+        <Card.Header>Topps Card Collector App</Card.Header>
+        <Card.Meta>Showcasing a gallery of desirable baseball cards with their unique content, allowing users to post for a multitude of applications whether it be selling an item or getting your inventory out there and seen by the masses.</Card.Meta>
         <Card.Description></Card.Description>
         </Card.Content>
         <Card.Content extra>

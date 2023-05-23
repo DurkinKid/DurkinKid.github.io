@@ -15,7 +15,7 @@ export default function Home(){
         </div>
         </div>
         <hr/>
-        <div className='card'>
+        <div className='footer'>
         <a href='https://www.linkedin.com/in/charley-durkin-software-engineer/'><FaLinkedin /></a>
         <a href='https://github.com/DurkinKid?tab=repositories'><FaGithubAlt /></a>
     </div>

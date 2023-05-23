@@ -11,6 +11,7 @@ export default function Contact(){
                 <Image src="https://i.imgur.com/ZSzEYv2.jpg" circular/>
             </Item>
         </Item.Group>
+        <p>Stay tuned as this site is under construction.</p>
         </>
     )
 }

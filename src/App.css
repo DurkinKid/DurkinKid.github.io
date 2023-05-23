@@ -65,3 +65,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.footer {
+  display: flex;
+  justify-content: right;
+  flex-direction: row-reverse;
+  
+}
