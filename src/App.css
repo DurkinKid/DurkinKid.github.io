@@ -67,7 +67,6 @@
 
 .footer {
   display: flex;
-  justify-content: right;
-  flex-direction: row-reverse;
+  position: absolute;
 
 }
