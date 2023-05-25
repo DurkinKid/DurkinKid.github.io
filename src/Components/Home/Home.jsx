@@ -14,11 +14,12 @@ export default function Home(){
         </p>
         </div>
         </div>
+        <span>Check out my <a href="https://docs.google.com/document/d/1yT9xOZCLwCTpChqcFdttURyKman9QCaDI2UPjBQiAIA/edit">Resume</a> </span>
         <hr/>
         <div className='footer'>
         <a href='https://www.linkedin.com/in/charley-durkin-software-engineer/'><FaLinkedin /></a>
         <a href='https://github.com/DurkinKid?tab=repositories'><FaGithubAlt /></a>
-    </div>
+        </div>
     </>
     )
 }
