@@ -14,7 +14,7 @@ export default function Home(){
         </p>
         </div>
         </div>
-        <span>Check out my <a href="https://docs.google.com/document/d/1yT9xOZCLwCTpChqcFdttURyKman9QCaDI2UPjBQiAIA/edit?usp=sharing">Resume</a> </span>
+        <span>Check out my <a href="https://docs.google.com/document/d/e/2PACX-1vS1mVh2o8W4qp2k3GP4k3tx8O8lGShrpaCIlu7Xfic7P1k_hDYVicNdOa1sS9cBstnWtB-1Q39WXejL/pub">Resume</a> </span>
         <hr/>
         <div className='footer'>
         <a href='https://www.linkedin.com/in/charley-durkin-software-engineer/'><FaLinkedin /></a>
