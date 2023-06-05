@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Icon, Image } from 'semantic-ui-react'
-
+import { useState } from "react";
 
 export default function Projects(){
    
@@ -12,6 +12,14 @@ export default function Projects(){
     // faveIndex > -1
     //   ? () => removeFavorite(post.favorites[faveIndex]._id)
     //   : () => addFavorite(post._id);
+
+    const [state, setState] = useState(0)
+
+    function clickHandler(){
+        setState({
+            ...state + 1
+        })
+    }
 
     return (
         <>
@@ -30,7 +38,7 @@ export default function Projects(){
         <Card.Content extra>
         Show some feedback<br/>
             <Icon name="heart"
-            // onClick={clickHandler}
+            onClick={clickHandler}
             />
         </Card.Content>
         </Card>
@@ -48,7 +56,9 @@ export default function Projects(){
         </Card.Content>
         <Card.Content extra>
         Show some feedback<br/>
-            <Icon name="heart" />
+            <Icon name="heart"
+            onClick={clickHandler}
+             />
         </Card.Content>
         </Card>
 
@@ -65,7 +75,9 @@ export default function Projects(){
         </Card.Content>
         <Card.Content extra>
         Show some feedback<br/>
-            <Icon name="heart" />
+            <Icon name="heart"
+            onClick={clickHandler}
+             />
         </Card.Content>
         </Card>
         </Card.Group>
